@@ -14,3 +14,9 @@ git rm 删除版本库文件
 git remote -v 查看远端地址
 git remote set-url origin 更改远端库
 git remote add origin 添加远端库
+
+git checkout -b dev 添加并切换到dev分支
+git branch 查看当前分支
+git branch dev 创建dev分支
+git checkout dev 切换到dev分支
+git merge dev 合并指定分支到当前分支
