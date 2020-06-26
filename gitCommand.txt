@@ -11,3 +11,4 @@ git reset hard HEAD^ 回退到上一个版本
 git reset HEAD <file> 撤销暂存区的修改，放回工作区
 git checkout --<file> 丢弃工作区的修改（用版本库版本替换工作区的）
 git rm 删除版本库文件
+git remote -v 查看远端地址
