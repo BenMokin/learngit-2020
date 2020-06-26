@@ -40,3 +40,6 @@ git cherry-pick <commit> 复制特定命令到当前分支
 标签管理
 git tag <name> 加新标签
 git tag -d <name> 删除标签
+
+
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
