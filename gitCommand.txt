@@ -1,0 +1,13 @@
+git 命令
+mkdir 创建仓库
+git init 初始化
+git status 查看当前状态
+git add .
+git diff
+git commit -m ""
+git log --pretty=one 查看提交历史
+git reflog 查看命令历史
+git reset hard HEAD^ 回退到上一个版本
+git reset HEAD <file> 撤销暂存区的修改，放回工作区
+git checkout --<file> 丢弃工作区的修改（用版本库版本替换工作区的）
+git rm 删除版本库文件
