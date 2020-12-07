@@ -19,14 +19,18 @@ git remote add origin 添加远端库
 
 分支管理
 git checkout -b dev 创建并切换到dev分支
+git checkout dev 切换到dev分支
+
 git switch -c dev 创建并切换到dev分支
 git switch -d dev 删除dev分支
+
 git branch 查看当前分支
 git branch dev 创建dev分支
 git branch dev -d 删除dev分支
-git checkout dev 切换到dev分支
+
 git merge dev 合并指定分支到当前分支
 git merge --no-ff -m "" 非fastforward合并
+
 git stash 存储当前工作现场
 git stash apply 恢复stash
 git stash pop 恢复并删除stash
